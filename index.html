@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAF Software</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="nav-container">
+        <a href="#solutions">SERVIÇOS</a>
+        <a href="#contact">CONTATO</a>
+        <a href="about">SOBRE</a>
+      </nav>
+      <!-- Header -->
+      <header class="header-container">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <!-- Imagem de background, h1(ou logo) e p -->
+        <img src="public/logo.png" />
+        <p>
+          Criamos soluções inteligentes com uma visão integrada unindo a
+          tecnologia à experiência do usuário.
+        </p>
+        <img id="borda" src="./public/borderum.svg" />
+      </header>
+
+      <!-- --------------------------------------Acima OK----------------------------------------------------- -->
+
+      <!-- Main  -->
+      <main class="main-container">
+        <section class="solutions-container">
+          <!-- Section pra texto com botao(conheça nossas soluçoes) + icone de seta pra baixo -->
+          <p>
+            A AGX Software é uma empresa de tecnologia especializada em criar
+            inovações para otimizar os processos gerenciais, através da
+            implementação das mais variadas tecnologias visando a facilidade de
+            uso e criando uma identidade digital para conectar a sua marca com
+            os usuários finais.
+          </p>
+          <button>Conheça nossas soluções</button>
+          <img src="./public/arrow.svg" />
+        </section>
+
+        <section id="solutions" class="services-container reveal">
+          <!-- Section para Serviços, titulo, paragrafo, cards -->
+          <p id="services-p1">SERVIÇOS</p>
+          <h1 id="services-h1">O que podemos fazer por você</h1>
+          <div id="bordap">
+            <div id="bordinha"></div>
+            <p>
+              Transformamos suas dificuldades em soluções altamente tecnológicas
+              combinando a experiência do usuário à ferramentas inteligíveis de
+              desenvolvimento aumentando interação e o relacionamento do cliente
+              com a sua marca.
+            </p>
+          </div>
+          <section class="cards-container">
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card1.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Desenvolvimento de Software</h1>
+                <p>
+                  Criamos soluções exclusivas e personalizadas para a sua marca
+                  otimizar e automatizar seus processos gerenciais,
+                  impulsionando seus resultados.
+                </p>
+              </div>
+            </div>
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card2.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Customização & Integração</h1>
+                <p>
+                  Seu negócio com resultados mais elevados através do controle e
+                  gerenciamento de seus múltiplos processos de trabalhos e
+                  ferramentas centralizadas em um só sistema.
+                </p>
+              </div>
+            </div>
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card3.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Experiência UX & UX</h1>
+                <p>
+                  Designs intuitivos e responsivos que transformam a presença
+                  digital de sua marca em experiências únicas para os seus
+                  clientes e usuários.
+                </p>
+              </div>
+            </div>
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card4.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Consultoria</h1>
+                <p>
+                  Somos muito mais do que uma fábrica de software, nosso time é
+                  especialista em identificar quais são as reais necessidades de
+                  sua marca e apresentar soluções eficazes para e seus
+                  resultados decolar!
+                </p>
+              </div>
+            </div>
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card5.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Omnichannel</h1>
+                <p>
+                  Todos os seus de canais de comunicação interligados de forma
+                  simples e altamente tecnológica, aprimorando assim a conexão
+                  externa e interna.
+                </p>
+              </div>
+            </div>
+            <div id="card" class="card">
+              <div class="img-card-container">
+                <img src="./public/card6.svg" />
+              </div>
+              <div class="texto-card">
+                <h1>Software como Serviço</h1>
+                <p>
+                  Nossa linha de soluções SaaS já encontra-se pronta para uso,
+                  basta apenas um navegador e acesso a internet.
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+      </main>
+
+      <!-- Footer -->
+      <footer></footer>
+    </div>
+    <script src="./script/particles.js"></script>
+    <script src="./script/app.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/reveal.js"></script>
+  </body>
+</html>
